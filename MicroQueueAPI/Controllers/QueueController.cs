@@ -15,6 +15,8 @@ namespace MicroQueueAPI.Controllers
             _event = rabbitMqEvent;
         }
 
+        //teste
+        // outro teste
         [HttpPost("send")]
         public IActionResult SendMessage([FromBody] string message)
         {
